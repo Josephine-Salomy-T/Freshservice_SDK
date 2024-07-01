@@ -1,0 +1,33 @@
+{
+  "platform-version": "2.3",
+  "product": {
+    "freshservice": {
+      "location": {
+        "cti_global_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      },
+      "requests": {
+        "listAllRequesters":{},
+        "createTicket":{},
+        "createNote":{}
+      },
+      "functions":{
+        "onlistAllRequesters":{
+          "timeout": 10
+        },
+        "oncreateTicket":{
+          "timeout":10
+        },
+        "oncreateNote":{
+          "timeout":10
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "18.20.3",
+    "fdk": "9.1.1"
+  }
+}
